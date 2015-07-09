@@ -1,0 +1,42 @@
+# don't cache html files
+location ~* \.(?:html?)$ {
+	access_log        off;
+        expires           -1;
+}
+
+# serve static files directly
+location ~* ^.+.(jpg|jpeg|gif|css|png|js|ico|xml|txt)$ {
+        access_log        off;
+        expires           max;
+	add_header Pragma public;
+ 	add_header Cache-Control "public, must-revalidate, proxy-revalidate";
+    }
+
+# url rewrite
+location / {
+	if (!-e $request_filename){
+    		rewrite ^(.*)$ /index.php?url=$1 last;
+	}
+}
+
+#error_page  404              /404.html;
+
+# redirect server error pages to the static page /50x.html
+error_page   500 502 503 504  /50x.html;
+
+location = /50x.html {
+   	root   /usr/share/nginx/html;
+}
+
+# pass the PHP scripts to PHP upstream
+location ~ \.php$ {
+	fastcgi_pass php;
+	include /etc/nginx/fastcgi_params;
+    	fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+}
+
+location ~ ^/(status|ping) {
+	fastcgi_pass php;
+	include /etc/nginx/fastcgi_params;
+	fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+}

@@ -1,0 +1,14 @@
+server {
+	listen       80 default_server;
+    	server_name  rocketphtml.com;
+    	root   /usr/share/nginx/www/rocket/public;
+    	index  index.php;
+
+    	# Logging --
+	access_log  /var/log/nginx/rocket.access.log;
+    	error_log  /var/log/nginx/rocket.error.log notice;
+
+	# Include PHP server configurations	
+	include /etc/nginx/server_php;
+}
+
