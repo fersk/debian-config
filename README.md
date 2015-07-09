@@ -2,13 +2,13 @@
 Configuration for a web environment on Debian based OS. Config files
 
 
-### Install Webmin ###
+#### Install Webmin ####
 http://www.webmin.com/deb.html
 
-### Install ConfigServer Security & Firewall ###
+#### Install ConfigServer Security & Firewall ####
 http://configserver.com/free/csf/install.txt
 
-### Install New Relic Monitor Agent ###
+#### Install New Relic Monitor Agent ####
 https://newrelic.com/docs/server/server-monitor-installation-ubuntu-and-debian
 
 ### Install Percona Server ##
@@ -26,7 +26,7 @@ apt-get install php5-mysql
 ### Configure Percona Server, nginx and PHP-FPM ###
 
 ### Install Redis ###
-apt-get install redis-server
+```apt-get install redis-server```
 
 ### Install Redis Extension (PHPRedis) ###
 http://ricochen.wordpress.com/2012/03/25/install-phpredis-on-ubuntu/
@@ -35,7 +35,7 @@ http://ricochen.wordpress.com/2012/03/25/install-phpredis-on-ubuntu/
 QUEUE=default APP_INCLUDE=/usr/share/nginx/www/my-recipe-cost/system/core/packages/autoload.php VVERBOSE=1 php /usr/share/nginx/www/my-recipe-cost/system/core/packages/chrisboulton/php-resque/resque.php
 
 ### Install Composer ###
-[https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx]
+https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 
 ### Configure maintenance and backup scripts ###
 
