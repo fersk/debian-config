@@ -1,37 +1,39 @@
 # debian-config
 Configuration for a web environment on Debian based OS. Config files
 
-##### Webmin: ##### http://www.webmin.com/deb.html
+###### Webmin: 
+http://www.webmin.com/deb.html
 
-##### Install ConfigServer Security & Firewall: http://configserver.com/free/csf/install.txt
+###### ConfigServer Security & Firewall: 
+http://configserver.com/free/csf/install.txt
 
-##### Install New Relic Monitor Agent
+###### New Relic Monitor Agent
 https://newrelic.com/docs/server/server-monitor-installation-ubuntu-and-debian
 
-##### Install Percona Server
+###### Percona Server
 http://www.percona.com/doc/percona-server/5.5/installation/apt_repo.html
 
-##### Install nginx
+###### nginx
 http://wiki.nginx.org/Install#Official_Debian.2FUbuntu_packages
 
-##### Install PHP-FPM & APC ##
+###### PHP-FPM & APC ##
 http://www.ubuntubrsc.com/instalando-nginx-php-fpm-apc-varnish-mysql-ubuntu-server-12-04.html
 
-##### Install php5-mysql driver ###
+###### php5-mysql driver ###
 ```apt-get install php5-mysql```
 
-##### Configure Percona Server, nginx and PHP-FPM
+###### Configure Percona Server, nginx and PHP-FPM
 
-##### Install Redis
+###### Redis
 ```apt-get install redis-server```
 
-##### Install Redis Extension (PHPRedis)
+###### Install Redis Extension (PHPRedis)
 http://ricochen.wordpress.com/2012/03/25/install-phpredis-on-ubuntu/
 
-##### Install Composer
+###### Install Composer
 https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 
-##### Configure maintenance and backup scripts
+###### Configure maintenance and backup scripts
 
 
 ### Others ###
