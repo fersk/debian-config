@@ -1,5 +1,5 @@
 # debian-config
-Configuration for Debian based OS and config files
+Configuration for a web environment on Debian based OS. Config files
 
 
 ### Install Webmin ###
@@ -15,8 +15,7 @@ https://newrelic.com/docs/server/server-monitor-installation-ubuntu-and-debian
 http://www.percona.com/doc/percona-server/5.5/installation/apt_repo.html
 
 ### Install nginx ###
-add latest repo
-apt-get install nginx
+[http://wiki.nginx.org/Install#Official_Debian.2FUbuntu_packages]
 
 ### Install PHP-FPM & APC ##
 http://www.ubuntubrsc.com/instalando-nginx-php-fpm-apc-varnish-mysql-ubuntu-server-12-04.html
@@ -36,6 +35,7 @@ http://ricochen.wordpress.com/2012/03/25/install-phpredis-on-ubuntu/
 QUEUE=default APP_INCLUDE=/usr/share/nginx/www/my-recipe-cost/system/core/packages/autoload.php VVERBOSE=1 php /usr/share/nginx/www/my-recipe-cost/system/core/packages/chrisboulton/php-resque/resque.php
 
 ### Install Composer ###
+[https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx]
 
 ### Configure maintenance and backup scripts ###
 
