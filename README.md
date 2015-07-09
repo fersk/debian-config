@@ -37,8 +37,6 @@ QUEUE=default APP_INCLUDE=/usr/share/nginx/www/my-recipe-cost/system/core/packag
 
 ### Install Composer ###
 
-### Install RocketPHP Framework from Bitbucket repository ###
-
 ### Configure maintenance and backup scripts ###
 
 
