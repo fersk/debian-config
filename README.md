@@ -5,7 +5,7 @@ Configuration for a web environment on Debian based OS. Config files
 http://www.webmin.com/deb.html
 
 ###### ConfigServer Security & Firewall: 
-http://configserver.com/free/csf/install.txt
+https://download.configserver.com/csf/install.txt
 
 ###### New Relic Monitor Agent
 https://newrelic.com/docs/server/server-monitor-installation-ubuntu-and-debian
