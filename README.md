@@ -35,6 +35,8 @@ https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 
 ###### Configure maintenance and backup scripts
 
+###### SSL
+https://certbot.eff.org/#ubuntuxenial-nginx
 
 ### Others ###
 https://www.digitalocean.com/community/articles/how-to-create-a-ssl-certificate-on-nginx-for-ubuntu-12-04
