@@ -3,6 +3,7 @@ Configuration for a web environment on Debian based OS. Config files
 
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
 https://www.thefanclub.co.za/how-to/how-secure-ubuntu-1204-lts-server-part-1-basics
+http://askubuntu.com/questions/638796/what-is-meaning-of-755-permissions-in-samba-share
 
 ###### Webmin: 
 http://www.webmin.com/deb.html
