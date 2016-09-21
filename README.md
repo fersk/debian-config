@@ -1,6 +1,9 @@
 # debian-config
 Configuration for a web environment on Debian based OS. Config files
 
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
+https://www.thefanclub.co.za/how-to/how-secure-ubuntu-1204-lts-server-part-1-basics
+
 ###### Webmin: 
 http://www.webmin.com/deb.html
 
