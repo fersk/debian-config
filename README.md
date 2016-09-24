@@ -23,9 +23,6 @@ http://wiki.nginx.org/Install#Official_Debian.2FUbuntu_packages
 ###### PHP-FPM##
 https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04
 
-###### php5-mysql driver ###
-```apt-get install php5-mysql```
-
 ###### Configure Percona Server, nginx and PHP-FPM
 
 ###### Redis
