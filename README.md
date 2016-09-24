@@ -30,6 +30,7 @@ http://www.ubuntubrsc.com/instalando-nginx-php-fpm-apc-varnish-mysql-ubuntu-serv
 
 ###### Redis
 ```apt-get install redis-server```
+https://github.com/phpredis/phpredis#class-redis
 
 ###### Install Redis Extension (PHPRedis)
 http://ricochen.wordpress.com/2012/03/25/install-phpredis-on-ubuntu/
