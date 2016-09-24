@@ -20,8 +20,8 @@ http://www.percona.com/doc/percona-server/5.5/installation/apt_repo.html
 ###### nginx
 http://wiki.nginx.org/Install#Official_Debian.2FUbuntu_packages
 
-###### PHP-FPM & APC ##
-http://www.ubuntubrsc.com/instalando-nginx-php-fpm-apc-varnish-mysql-ubuntu-server-12-04.html
+###### PHP-FPM##
+https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04
 
 ###### php5-mysql driver ###
 ```apt-get install php5-mysql```
